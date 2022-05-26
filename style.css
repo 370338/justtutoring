@@ -92,10 +92,20 @@ tr td{
     padding-top: 20px;
 }
 
-@media (min-width: 600px) {
-    /* mobile first */
+.mobile-text {
+    text-align: right !important;
 }
-
+  
+@media (max-device-width: 600px) {
+    .mobile-text {
+      text-align: center !important;
+    }
+}
+/*
+@media (min-width: 600px) {
+     mobile first 
+}
+*/
 @media (max-width: 600px) {
     /* desktop first */
 }
@@ -108,7 +118,7 @@ tr td{
 
 }
   
-.header h1 p {
+.header h1 p{
     position: relative;
     top: 20px;
     left: 20px;

@@ -5,74 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Form</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/dbl5ysr.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
-<body>
-    <div class="container">
-        <div class="header">
-            <img src="FinalPie.png" alt="logo" />
-            <h1 style="color: #FEE11A;">Just Tutoring 1-on-1 Sessions</h1>
-            <p style="color: #FEE11A;">Tell us what you need help with</p>
-        </div>
-     <!--<h1 style="color: #FEE11A;">Just Tutoring 1-on-1 Sessions</h1>
-     <p style="color: #FEE11A;">Tell us what you need help with</p>-->
-     <div class="contact-box">
-         <div class="contact-center">
-             <h3>Send a Request for Tutoring</h3>
-             <form action="https://formspree.io/f/xbjwqnka"
-             method="POST">
-                <div class="input-row">
-                    <div class="input-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Phil Knight">
-                    </div>
-                    <div class="input-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="philknight@gmail.com">
-                    </div>
-                </div>
-                <div class="input-row">
-                    <div class="input-group">
-                        <label for="phone">Phone</label>
-                        <input type="phone" id="phone" name="phone" placeholder="+1 (123) 456-7890">
-                    </div>
-                    <div class="input-group">
-                        <label for="subject">Subject</label>
-                        <input type="text" id="subject" name="subject" placeholder="Math 420">
-                    </div>
-                </div>
 
+<body>
+    <div class="header">
+        <nav>
+            <img src="Just Tutoring Heading-01.svg" class="logo" alt="logo">
+            <!--<ul class="nav-links">
+                <li><a href="">Sign Up</a></li>
+                <li><a href="">About Us</a></li>-
+            </ul>-->
+        </nav>
+    </div>
+    <div class="container">
+        <!--<div class="header">
+            <img src="FinalPie.png" alt="logo" width="100">
+            <div><h1 style="color: #FEE11A;">Just Tutoring 1-on-1 Sessions</h1>
+                <p style="color: #FEE11A;">Tell us what you need help with</p>
+            </div>
+        </div>-->
+        <div class="title">Sign Up for a 1-on-1 Session</div>
+        <form action="https://formspree.io/f/xbjwqnka"
+            method="POST">
+            <div class="user-details">
+                <div class="input-box">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Phil Knight">
+                </div>
+                <div class="input-box">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="philknight@gmail.com">
+                </div>
+                <div class="input-box">
+                    <label for="phone">Phone</label>
+                    <input type="phone" id="phone" name="phone" placeholder="+1 (123) 456-7890">
+                </div>
+                <div class="input-box">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Math 420">
+                </div>
                 <label>Message</label>
                 <textarea id="message" name="message" rows="5" placeholder="Your Message"></textarea>
-
+ 
+            </div>
+            <div class="button">
                 <button type="sumbit">SEND</button>
-
-             </form>
-         </div>
-         
-         <!--<div class="contact-right">
-            <h3>Have any Questions?</h3>
-
-            <table>
-                <tr>
-                    <td>Email</td>
-                    <td>justtutoring7@gmail.com</td>
-                </tr>
-                <tr>
-                    <td>Phone</td>
-                    <td>+1 (503) 354-7175</td>
-                </tr>
-                <tr>
-                    <td>Address</td>
-                    <td>1600 Pennsylvania Avenue NW, Washington, DC 20500</td>
-                </tr>
-            </table>
-
-         </div>-->
-
-     </div>
+            </div>
+            
+        </form>
+        
     </div>
-    
 </body>
 </html>
